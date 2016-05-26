@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ea89d983-ee67-44a8-b059-9b57a2bb6718" solutionId="ea89d983-ee67-44a8-b059-9b57a2bb6718" resetWebServer="false" sharePointProductVersion="15.0" name="SharePoint.WorkTimeAddin.SharePoint" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="697ed1b1-79cb-442a-a84b-2ee6d1959fd1" />
+  </features>
+</package>

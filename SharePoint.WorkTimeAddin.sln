@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{581633EB-B896-402F-8E60-36F3DA191C85}") = "SharePoint.WorkTimeAddin", "SharePoint.WorkTimeAddin\SharePoint.WorkTimeAddin.lsxtproj", "{84D7D305-AC55-4586-BA88-6D73152120A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.WorkTimeAddin.Server", "SharePoint.WorkTimeAddin\SharePoint.WorkTimeAddin.Server\SharePoint.WorkTimeAddin.Server.csproj", "{719956BD-DC57-4BE8-A0A7-7375DCBE5E8B}"
+EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "SharePoint.WorkTimeAddin.HTMLClient", "SharePoint.WorkTimeAddin\SharePoint.WorkTimeAddin.HTMLClient\SharePoint.WorkTimeAddin.HTMLClient.jsproj", "{1C65864A-B606-4DEA-A8E9-25621447809D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharePoint.WorkTimeAddin.SharePoint", "SharePoint.WorkTimeAddin\SharePoint.WorkTimeAddin.SharePoint\SharePoint.WorkTimeAddin.SharePoint.csproj", "{04141E97-3EFE-49DA-9422-DDD5910A83FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84D7D305-AC55-4586-BA88-6D73152120A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D7D305-AC55-4586-BA88-6D73152120A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D7D305-AC55-4586-BA88-6D73152120A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D7D305-AC55-4586-BA88-6D73152120A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719956BD-DC57-4BE8-A0A7-7375DCBE5E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719956BD-DC57-4BE8-A0A7-7375DCBE5E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719956BD-DC57-4BE8-A0A7-7375DCBE5E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719956BD-DC57-4BE8-A0A7-7375DCBE5E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C65864A-B606-4DEA-A8E9-25621447809D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C65864A-B606-4DEA-A8E9-25621447809D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C65864A-B606-4DEA-A8E9-25621447809D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C65864A-B606-4DEA-A8E9-25621447809D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04141E97-3EFE-49DA-9422-DDD5910A83FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
