@@ -48,6 +48,9 @@ namespace LightSwitchApplication
                                 string endTime = endTimeObject is DateTime ? ((DateTime)endTimeObject).ToString("HH:mm") : endTimeObject as string;
                                 var item = workspace.ApplicationData.WorkTimeSet.AddNew();
                                 string remark = helper.GetCellValue(16, rowIdx) as string;
+
+                                if (string.IsNullOrEmpty(startTime) && string.IsNullOrEmpty(endTime) && string.IsNullOrEmpty(remark) && string.IsNullOrEmpty(sickHoliday)) continue;
+
                                 item.UserId = userId;
                                 item.SickHolidy = sickHoliday;
                                 item.WorkDate = date.AddDays(rowIdx - startPos);
